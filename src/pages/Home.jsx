@@ -1,10 +1,12 @@
 import React from 'react';
 
 function Home({ addToCart }) {
+  const base = import.meta.env.BASE_URL;
+
   const destacados = [
-    { id: 201, nombre: 'Call of Duty', precioOferta: 24990, imagen: '/assets/img/CallOfDuty.jpg' },
-    { id: 202, nombre: 'FIFA 27', precioOferta: 150000, imagen: '/assets/img/fifa27.jpg' },
-    { id: 203, nombre: 'God of War', precioOferta: 49990, imagen: '/assets/img/god-of-war.jpg' }
+    { id: 201, nombre: 'Call of Duty', precioOferta: 24990, imagen: `${base}assets/img/CallOfDuty.jpg` },
+    { id: 202, nombre: 'FIFA 27', precioOferta: 150000, imagen: `${base}assets/img/fifa27.jpg` },
+    { id: 203, nombre: 'God of War', precioOferta: 49990, imagen: `${base}assets/img/god-of-war.jpg` }
   ];
 
   return (
@@ -21,13 +23,13 @@ function Home({ addToCart }) {
               <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active" data-bs-interval="3000">
-                    <img src="/assets/img/audifonos-lenovo.jpg" className="d-block w-100" alt="Audífonos" />
+                    <img src={`${base}assets/img/audifonos-lenovo.jpg`} className="d-block w-100" alt="Audífonos" />
                   </div>
                   <div className="carousel-item" data-bs-interval="3000">
-                    <img src="/assets/img/ps5.webp" className="d-block w-100" alt="PS5" />
+                    <img src={`${base}assets/img/ps5.webp`} className="d-block w-100" alt="PS5" />
                   </div>
                   <div className="carousel-item" data-bs-interval="3000">
-                    <img src="/assets/img/camara.jpg" className="d-block w-100" alt="Cámara" />
+                    <img src={`${base}assets/img/camara.jpg`} className="d-block w-100" alt="Cámara" />
                   </div>
                 </div>
               </div>

@@ -1,11 +1,13 @@
 import React from 'react';
 
 function Productos({ addToCart }) {
+  const base = import.meta.env.BASE_URL;
+
   const listaProductos = [
-    { id: 101, nombre: 'Audífonos Lenovo', precioOferta: 24990, imagen: '/assets/img/audifonos-lenovo.jpg' },
-    { id: 102, nombre: 'Cámara Olympus E-330', precioOferta: 150000, imagen: '/assets/img/camara.jpg' },
-    { id: 103, nombre: 'God of War', precioOferta: 49990, imagen: '/assets/img/god-of-war.jpg' },
-    { id: 104, nombre: 'Consola PS5', precioOferta: 450000, imagen: '/assets/img/ps5.webp' }
+    { id: 101, nombre: 'Audífonos Lenovo', precioOferta: 24990, imagen: `${base}assets/img/audifonos-lenovo.jpg` },
+    { id: 102, nombre: 'Cámara Olympus E-330', precioOferta: 150000, imagen: `${base}assets/img/camara.jpg` },
+    { id: 103, nombre: 'God of War', precioOferta: 49990, imagen: `${base}assets/img/god-of-war.jpg` },
+    { id: 104, nombre: 'Consola PS5', precioOferta: 450000, imagen: `${base}assets/img/ps5.webp` }
   ];
 
   return (
