@@ -33,7 +33,7 @@ function App() {
       <div className="container mt-4" style={{ minHeight: '70vh' }}>
         <Routes>
           <Route path="/" element={<Home addToCart={addToCart} />} />
-          <Route path="/productos" element={<Productos addToCart={addToCart} />} />
+          <Route path="/productos" element={<Productos addToCart={addToCart} cart={cart} />} />
           <Route path="/carrito" element={<ShoppingCart cart={cart} removeFromCart={removeFromCart} />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>

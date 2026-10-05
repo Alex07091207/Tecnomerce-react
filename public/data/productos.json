@@ -1,0 +1,34 @@
+[
+  { 
+    "id": 101, 
+    "nombre": "Audífonos Lenovo", 
+    "descripcion": "Audífonos inalámbricos Bluetooth con cancelación de ruido.",
+    "precioNormal": 34990,
+    "precioOferta": 24990, 
+    "imagen": "assets/img/audifonos-lenovo.jpg" 
+  },
+  { 
+    "id": 102, 
+    "nombre": "Cámara Olympus E-330", 
+    "descripcion": "Cámara réflex digital compacta de alta resolución.",
+    "precioNormal": 189990,
+    "precioOferta": 150000, 
+    "imagen": "assets/img/camara.jpg" 
+  },
+  { 
+    "id": 103, 
+    "nombre": "God of War", 
+    "descripcion": "Aventura épica de acción para PlayStation en formato físico.",
+    "precioNormal": 59990,
+    "precioOferta": 49990, 
+    "imagen": "assets/img/god-of-war.jpg" 
+  },
+  { 
+    "id": 104, 
+    "nombre": "Consola PS5", 
+    "descripcion": "Consola de última generación de 825 GB con mando DualSense.",
+    "precioNormal": 529990,
+    "precioOferta": 450000, 
+    "imagen": "assets/img/ps5.webp" 
+  }
+]
