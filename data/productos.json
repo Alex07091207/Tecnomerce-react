@@ -5,7 +5,7 @@
     "descripcion": "Audífonos inalámbricos Bluetooth con cancelación de ruido.",
     "precioNormal": 34990,
     "precioOferta": 24990, 
-    "imagen": "img/audifonos-lenovo.jpg" 
+    "imagen": "assets/img/audifonos-lenovo.jpg" 
   },
   { 
     "id": 102, 
@@ -13,7 +13,7 @@
     "descripcion": "Cámara réflex digital compacta de alta resolución.",
     "precioNormal": 189990,
     "precioOferta": 150000, 
-    "imagen": "img/camara.jpg" 
+    "imagen": "assets/img/camara.jpg" 
   },
   { 
     "id": 103, 
@@ -21,7 +21,7 @@
     "descripcion": "Aventura épica de acción para PlayStation en formato físico.",
     "precioNormal": 59990,
     "precioOferta": 49990, 
-    "imagen": "img/god-of-war.jpg" 
+    "imagen": "assets/img/god-of-war.jpg" 
   },
   { 
     "id": 104, 
@@ -29,6 +29,6 @@
     "descripcion": "Consola de última generación de 825 GB con mando DualSense.",
     "precioNormal": 529990,
     "precioOferta": 450000, 
-    "imagen": "img/ps5.webp" 
+    "imagen": "assets/img/ps5.webp" 
   }
 ]
