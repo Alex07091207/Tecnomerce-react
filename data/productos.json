@@ -1,32 +1,45 @@
 [
   { 
     "id": 101, 
-    "nombre": "Audífonos Lenovo", 
-    "descripcion": "Audífonos inalámbricos Bluetooth con cancelación de ruido.",
-    "precioNormal": 34990,
-    "precioOferta": 24990, 
-    "imagen": "assets/img/audifonos-lenovo.jpg" 
-  },
-  { 
-    "id": 102, 
-    "nombre": "Cámara Olympus E-330", 
-    "descripcion": "Cámara réflex digital compacta de alta resolución.",
-    "precioNormal": 189990,
-    "precioOferta": 150000, 
-    "imagen": "assets/img/camara.jpg" 
-  },
-  { 
-    "id": 103, 
-    "nombre": "God of War", 
+    "nombre": "God of War Ragnarök", 
+    "categoria": "Aventura",
     "descripcion": "Aventura épica de acción para PlayStation en formato físico.",
     "precioNormal": 59990,
     "precioOferta": 49990, 
     "imagen": "assets/img/god-of-war.jpg" 
   },
   { 
+    "id": 102, 
+    "nombre": "Call of Duty: Modern Warfare", 
+    "categoria": "Acción",
+    "descripcion": "Intensa experiencia bélica en primera persona multijugador y campaña.",
+    "precioNormal": 64990,
+    "precioOferta": 52990, 
+    "imagen": "assets/img/CallOfDuty.jpg" 
+  },
+  { 
+    "id": 103, 
+    "nombre": "EA Sports FC 27 (FIFA)", 
+    "categoria": "Deportes",
+    "descripcion": "El simulador de fútbol definitivo con licencias oficiales completas.",
+    "precioNormal": 69990,
+    "precioOferta": 54990, 
+    "imagen": "assets/img/fifa27.jpg" 
+  },
+  { 
     "id": 104, 
-    "nombre": "Consola PS5", 
-    "descripcion": "Consola de última generación de 825 GB con mando DualSense.",
+    "nombre": "Grand Theft Auto VI", 
+    "categoria": "Mundo Abierto",
+    "descripcion": "Explora el estado de Leonida en la entrega más esperada de Rockstar.",
+    "precioNormal": 79990,
+    "precioOferta": 69990, 
+    "imagen": "assets/img/gtaVI.avif" 
+  },
+  { 
+    "id": 105, 
+    "nombre": "Consola PlayStation 5", 
+    "categoria": "Consolas",
+    "descripcion": "Consola de última generación con audio 3D y gatillos adaptativos.",
     "precioNormal": 529990,
     "precioOferta": 450000, 
     "imagen": "assets/img/ps5.webp" 
